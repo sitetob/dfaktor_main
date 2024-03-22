@@ -343,7 +343,7 @@ button:hover {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .5);
 }
   
-@media (any-hover: hover) and (any-pointer: fine) {
+@media (min-width: 200px) {
     .card__content {
       transform: translateY(62%);
       transition: transform 500ms ease-out;
@@ -1076,7 +1076,7 @@ figure:hover img {
     margin: 20px 0;
 }
 .blog__link:hover {
-    border-bottom: 1px solid rgb(0, 136, 255);
+    border-bottom: 3px solid rgb(0, 136, 255);
 }
 
 @media (max-width: 1200px) {
@@ -1222,6 +1222,9 @@ figure:hover img {
     .blog__inner {
         grid-template-columns: repeat(2,1fr);
     }
+    .panel p {
+        padding-top: 20px;
+    }
 
 }
 @media (max-width: 640px) {
@@ -1282,7 +1285,7 @@ figure:hover img {
         grid-template-columns: 1fr;
     }
     .steps__item:before {
-        height: auto;
+        height: 2em;
         margin-top: 0px;
         width: 1.5em;
     }
@@ -1290,7 +1293,7 @@ figure:hover img {
         font-size: 14px;
     }
     .cannot__inner {
-        gap: 20px;
+        gap: 15px;
     }
     .cannot__item {
         font-size: 16px;
@@ -1332,6 +1335,9 @@ figure:hover img {
     }
     .blog__inner {
         grid-template-columns: 1fr;
+    }
+    .customer-reviews h2 {
+        padding-bottom: 10px;
     }
 }
 @media (max-width: 414px) {
