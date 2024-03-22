@@ -1246,6 +1246,7 @@ figure:hover img {
       }
     .panel p {
         font-size: 20px;
+        margin-bottom: 20px;
     }
     .cases-traffic__inner {
         gap: 10px;
@@ -1340,6 +1341,9 @@ figure:hover img {
     }
     .customer-reviews h2 {
         padding-bottom: 0px;
+    }
+    .top__tabs {
+        padding-top: 10px;
     }
 }
 @media (max-width: 414px) {
