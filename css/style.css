@@ -326,7 +326,10 @@ button:hover {
     bottom: -5px;
     left: 0;
     background-color: #08f;
-}  
+} 
+.card__background {
+    overflow: hidden;
+} 
 .card__button {
     padding: 0.75em 30px;
     font-variant: small-caps;
