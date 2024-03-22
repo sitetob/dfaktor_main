@@ -343,7 +343,7 @@ button:hover {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .5);
 }
   
-@media (min-width: 200px) {
+@media (any-hover: hover) or (any-pointer: fine) or (min-width: 200px) {
     .card__content {
       transform: translateY(62%);
       transition: transform 500ms ease-out;
@@ -1297,6 +1297,7 @@ figure:hover img {
     }
     .cannot__item {
         font-size: 16px;
+        font-weight: 600;
     }
     .cannot__item:before {
         font-size: 150px;
