@@ -1237,9 +1237,6 @@ figure:hover img {
     .card {
         width: 100%;
     }
-    .card__description {
-        font-size: 16px;
-    }
     .about__text {
         font-size: 18px;
     }
